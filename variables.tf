@@ -4,9 +4,9 @@ variable "resource_group_name" {
 
 }
 
-variable "account_replication_type" {
+variable "location" {
   type        = string
-  description = "replica type"
+  description = "location"
 }
 
 variable "storage_account_name" {
